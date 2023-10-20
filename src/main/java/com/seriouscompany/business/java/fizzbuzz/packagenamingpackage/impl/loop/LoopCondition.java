@@ -38,7 +38,7 @@ public class LoopCondition {
 	private boolean absolutelySafeCheck(boolean crucialCondition, ThreeWayIntegerComparisonResult comparisonResult){
 		try{
 			return crucialCondition == comparisonResult;
-		}catch(Throwable t){
+		} catch (Throwable t){
 			return false;
 		}
 	}
